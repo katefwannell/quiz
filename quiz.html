@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Of Choice</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Quiz of Your Choice</h2>
+      </div>
+      <form id="quiz">
+        <div class="form-group">
+          <p>A Stress Test:</p>
+          <input type="checkbox" name="stress" value="overwhelm">Are you feeling overwhelmed?<br>
+          <input type="checkbox" name="stress" value="food">Are you eating less than 3 meals a day?<br>
+          <input type="checkbox" name="stress" value="active">Are you excercising regularly?<br>
+          <input type="checkbox" name="stress" value="tired">Are you sleeping less than 8 hours a night?<br>
+          <input type="checkbox" name="stress" value="social">Are you socializing regularly?<br>
+          <input type="checkbox" name="stress" value="family">Are you seeing friends and/or family?<br>
+        </div>
+        <div class="form-group">
+          <p>A Fortune Teller Test:</p>
+          <input type="checkbox" name="fortune" value="married">Have you ever been married?<br>
+          <input type="checkbox" name="fortune" value="children">Do you want children?<br>
+          <input type="checkbox" name="fortune" value="love">Are you in love?<br>
+          <input type="checkbox" name="fortune" value="well">Do you feel well?<br>
+          <input type="checkbox" name="fortune" value="move">Are you interested in moving?<br>
+          <input type="checkbox" name="fortune" value="travel">Do you like to travel?<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="stress-responses">
+        <p><b>Stress Test Results:</b></p>
+      </span>
+      <br>
+      <span id="fortune-responses">
+        <p><b>Fortune Teller Test Results:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
